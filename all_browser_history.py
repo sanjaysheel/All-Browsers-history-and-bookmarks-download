@@ -111,8 +111,8 @@ def browser_history():
                 time.sleep(2)
                 outputs_his.save(full_path_key_json)
                 # book
-                name1 = os.path.join(full_path_key, str(str(key)+"_book.csv"))
-                name2 = os.path.join(full_path_key, str(str(key)+"_book.csv"))
+                name1 = os.path.join(path, str(str(key)+"_book.csv"))
+                name2 = os.path.join(path, str(str(key)+"_book.csv"))
                 time.sleep(2)
                 book.save(name1)
                 time.sleep(2)
